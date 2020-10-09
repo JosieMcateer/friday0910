@@ -27,11 +27,13 @@ function addmemory(){
     }
 
     function memclear(){
-        mem="";
+        
+        mem=[];
     }
 
     function mminus(){
-        mem[mem.length--]=document.getElementById("inputwindow").value;
+        mem.pop();
+        console.log(mem);
     }
 
 	//when pressing clear this will clear the input window
