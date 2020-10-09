@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<!--MAKE SURE THE CSS SHEET IS IN THE SAME FOLDER AS HTML-->
+
 	<link rel="stylesheet" href="calc.css"> 
 </head>
 
@@ -36,13 +36,12 @@ function addmemory(){
         console.log(mem);
     }
 
-	//when pressing clear this will clear the input window
+
 	function clearInput() {
 	  	document.getElementById('inputwindow').value = "";
 	}
 
-	//when pressing equals this will evaluate the maths in the input window and display the result
-	//will also display error if calculated number is more than 14
+	
 	function calculateResult() {
 		var screen = document.getElementById('inputwindow');
 		if(screen.value.length > 14){
@@ -53,13 +52,13 @@ function addmemory(){
 		}
 	}
 
-	//when pushing Del key this will remove 1 digit from the input window
+
 	function goBack() {
     	var value = document.getElementById("inputwindow").value;
     	document.getElementById("inputwindow").value = value.substr(0, value.length - 1);
 	}
 	
-	//adds negative values to numbers
+	
 	function negative(){
 		var b=document.getElementById("inputwindow");
 		var n = b.value;
