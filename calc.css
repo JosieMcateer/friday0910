@@ -8,7 +8,7 @@ body {
 	border-color: rgba(255, 255, 255, 0.781);
 	text-align: center;
 	padding: 5px;
-	width: 214px;
+	width: 268px;
 	height: 320px;
 	margin: 100px auto;
 }
@@ -39,7 +39,6 @@ input[type="button"]{
 	display: inline-block;
 	border: none;
 	transition: all 0.4s ease 0s;
-
 	color:black;
 }
 
@@ -55,20 +54,44 @@ input[type="button"]:hover{
 
 .functions{
 	font-weight: bolder;
-	background: rgb(218, 68, 58) !important;
+	background:  #F4AFAB !important;
 }
 
 .functions:hover{
 	font-weight: bolder;
-	color: rgb(218, 68, 58) !important;
+	color: F9ADAO !important;
+}
+
+.memory{
+	font-weight: bolder;
+	background-color: rgb(58, 122, 218) !important;
+}
+
+.memory:hover{
+	font-weight: bolder;
+	color: rgb(58, 122, 218) !important;
 }
 
 .operator {
 	font-weight: bolder;
-	background: rgb(212, 175, 73) !important;
+	background: #ABDAFC !important;
 }
 
 .operator:hover{
 	font-weight:bolder;
-	color: rgb(212, 175, 73) !important;
+	color: #ABDAFC !important;
+}
+
+.equals{
+	height:104px !important;
+	float: right !important;
+	margin-left: 3px !important;
+	margin-right: 1px !important;
+	font-weight: bolder;
+	background-color: rgb(58, 122, 218) !important;
+}
+
+.equals:hover{
+	font-weight: bolder;
+	color: rgb(58, 122, 218) !important;
 }
